@@ -17,7 +17,8 @@ namespace WindowsFormsApplication1
         }
 
         private void Form1_Load( object sender, EventArgs e ) {
-            label1.Text = "TEST GITH";
+            string test_text = "TEST GITH";
+            label1.Text = test_text + "1";
         }
     }
 }
